@@ -20,7 +20,7 @@ Module add functionality which automatically track products with special price a
 	- magmakers_specialpricecategory_runmanageproducts
 
  - Observer
-	- catalog_product_save_after > Ecom\SpecialPriceCategory\Observer\Catalog\ProductSaveAfter
+	- catalog_product_save_after > Magmakers\SpecialPriceCategory\Observer\Catalog\ProductSaveAfter
 
     
 
