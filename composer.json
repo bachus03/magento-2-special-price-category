@@ -1,0 +1,22 @@
+{
+    "name": "magmakers/module-specialpricecategory",
+    "description": "Module add functionality which automatically track products with special price and puts them int category",
+    "type": "magento2-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "email": "marcin.bachu@gmail.com",
+            "name": "Marcin Bach"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+          "registration.php"
+        ],
+        "psr-4": {
+            "Magmakers\\SpecialPriceCategory\\": ""
+        }
+    }
+}
